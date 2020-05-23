@@ -1,0 +1,13 @@
+server:
+  port: 9000
+
+spring:
+  mvc:
+    view:
+      prefix: /
+      suffix: .html
+
+  resources:
+    static-locations: classpath:/webapp/
+
+
