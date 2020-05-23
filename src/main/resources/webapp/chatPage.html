@@ -87,7 +87,7 @@
         if (typeof (WebSocket) == "undefined") {
             console.log("您的浏览器不支持WebSocket")
         } else {
-            socket = new WebSocket("ws://sundaysfun.free.idcfengye.com/websocket");
+            socket = new WebSocket("ws://localhost:9000/websocket");
             $("#messageSend_Button").click(
                 socket.onopen = function () {
                     if ($("#messageValue_Input").val() != "") {
